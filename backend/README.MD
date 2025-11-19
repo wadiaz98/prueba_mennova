@@ -18,7 +18,7 @@ Para garantizar el correcto funcionamiento, se recomienda contar con las siguien
 
 Para instalar todas las librerías necesarias, ejecutar el siguiente comando en la raíz de este directorio (` backend/ `):
 
-``` bash npm install ``` 
+``` npm install ``` 
 
 2. **Configuración de Variables de Entorno**
 
