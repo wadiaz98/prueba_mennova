@@ -10,7 +10,7 @@ El proyecto está estructurado como un Monorepo dividido en dos directorios prin
 
 API RESTful construida con **Node.js, Express** y **TypeScript**. Utiliza **PostgreSQL** como base de datos y **TypeORM** para el mapeo objeto-relacional.
 
-- [Ver instrucciones del Backend](./backend/README.md)
+- [Ver instrucciones del Backend](./backend/README.MD)
 
 🔵 **Frontend** (`/frontend`)
 

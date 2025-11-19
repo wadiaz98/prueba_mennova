@@ -43,24 +43,24 @@ El sistema se encuentra configurado con ` synchronize: true ` (modo desarrollo),
 **Iniciar en Desarrollo (Recomendado)**
 
 Levanta el servidor con recarga automática (watch mode).
-``` bash npm run dev ``` 
+```bash npm run dev ``` 
 La API estará disponible en: ` http://localhost:3000/api/cocktails `
 
 **Ejecutar Pruebas (Testing)**
 
 Ejecuta los tests de integración automatizados (Jest + Supertest) para validar el funcionamiento correcto del sistema (CRUD, Validaciones, Errores).
-``` bash npm test ``` 
+```bash npm test ``` 
 
 **Compilar para Producción**
 
 Genera el código JavaScript transpilado en la carpeta ` build/ `.
-``` bash npm run build ``` 
+```bash npm run build ``` 
 
 ## 📂 Estructura del Proyecto
 
 La organización de carpetas sigue una arquitectura modular para separar responsabilidades:
 
-``` text backend/ ├── build/              # Código compilado para producción ├── database/           # Scripts SQL y datos de ejemplo (Seeds) ├── node_modules/       # Dependencias del proyecto ├── src/                # Código fuente TypeScript │   ├── controllers/    # Controladores: Manejan la entrada/salida HTTP │   ├── dtos/           # DTOs: Estructuras de datos (Input/Output) │   ├── entities/       # Entidades: Modelos de BD (TypeORM) │   ├── mappers/        # Mappers: Transformación DTO <-> Entidad │   ├── repositories/   # Repositorios: Acceso a datos │   ├── routes/         # Rutas: Definición de endpoints │   ├── services/       # Servicios: Lógica de negocio y validaciones │   ├── utils/          # Utilidades: Herramientas globales (AppError) │   ├── app.ts          # Configuración de la app Express │   ├── data-source.ts  # Conexión a PostgreSQL │   └── index.ts        # Punto de entrada: Inicia el servidor ├── tests/              # Pruebas de integración ├── .env                # Variables de entorno (Credenciales) ├── jest.config.js      # Configuración de Jest ├── package.json        # Dependencias y scripts └── tsconfig.json       # Configuración de TypeScript ``` 
+```bash text backend/ ├── build/              # Código compilado para producción ├── database/           # Scripts SQL y datos de ejemplo (Seeds) ├── node_modules/       # Dependencias del proyecto ├── src/                # Código fuente TypeScript │   ├── controllers/    # Controladores: Manejan la entrada/salida HTTP │   ├── dtos/           # DTOs: Estructuras de datos (Input/Output) │   ├── entities/       # Entidades: Modelos de BD (TypeORM) │   ├── mappers/        # Mappers: Transformación DTO <-> Entidad │   ├── repositories/   # Repositorios: Acceso a datos │   ├── routes/         # Rutas: Definición de endpoints │   ├── services/       # Servicios: Lógica de negocio y validaciones │   ├── utils/          # Utilidades: Herramientas globales (AppError) │   ├── app.ts          # Configuración de la app Express │   ├── data-source.ts  # Conexión a PostgreSQL │   └── index.ts        # Punto de entrada: Inicia el servidor ├── tests/              # Pruebas de integración ├── .env                # Variables de entorno (Credenciales) ├── jest.config.js      # Configuración de Jest ├── package.json        # Dependencias y scripts └── tsconfig.json       # Configuración de TypeScript ``` 
 
 ## 🧠 Decisiones Técnicas y Arquitectura
 
