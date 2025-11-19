@@ -58,11 +58,13 @@ La API estará disponible en: ` http://localhost:3000/api/cocktails `
 **Ejecutar Pruebas (Testing)**
 
 Ejecuta los tests de integración automatizados (Jest + Supertest) para validar el funcionamiento correcto del sistema (CRUD, Validaciones, Errores).
+
 ``` npm test``` 
 
 **Compilar para Producción**
 
 Genera el código JavaScript transpilado en la carpeta ` build/ `.
+
 ``` npm run build ``` 
 
 ## 📂 Estructura del Proyecto
