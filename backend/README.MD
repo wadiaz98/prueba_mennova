@@ -24,13 +24,14 @@ Para instalar todas las librerías necesarias, ejecutar el siguiente comando en 
 
 Es necesario crear un archivo ` .env ` en la raíz de la carpeta ` backend ` con las credenciales de la base de datos local. Se puede tomar como referencia la siguiente configuración:
 
-```text
-env PORT=3000 
+``` 
+PORT=3000 
 DB_HOST=localhost 
 DB_PORT=5432 
 DB_USER=postgres 
 DB_PASSWORD=tu_password_aqui 
-DB_NAME=cocktails_db ``` 
+DB_NAME=cocktails_db
+```
 
 3. **Base de Datos y Datos de Prueba (Importante)**
 
@@ -50,25 +51,25 @@ El sistema se encuentra configurado con ` synchronize: true ` (modo desarrollo),
 
 Levanta el servidor con recarga automática (watch mode).
 
-```bash npm run dev```
+``` npm run dev```
 
 La API estará disponible en: ` http://localhost:3000/api/cocktails `
 
 **Ejecutar Pruebas (Testing)**
 
 Ejecuta los tests de integración automatizados (Jest + Supertest) para validar el funcionamiento correcto del sistema (CRUD, Validaciones, Errores).
-```bash npm test``` 
+``` npm test``` 
 
 **Compilar para Producción**
 
 Genera el código JavaScript transpilado en la carpeta ` build/ `.
-```bash npm run build ``` 
+``` npm run build ``` 
 
 ## 📂 Estructura del Proyecto
 
 La organización de carpetas sigue una arquitectura modular para separar responsabilidades:
 
-```text
+```
 backend/
 ├── build/                 # Código compilado para producción
 ├── database/              # Scripts SQL y datos de ejemplo (Seeds)
