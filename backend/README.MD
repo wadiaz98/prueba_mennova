@@ -99,7 +99,7 @@ backend/
 
 A continuación, se detalla el razonamiento detrás del diseño del software:
 
-1. **Arquitectura por Capas**
+### 1. **Arquitectura por Capas**
 
 Se optó por separar el código en tres capas principales (Controller, Service, Repository) para cumplir con el principio de Separación de Responsabilidades:
 
@@ -111,7 +111,7 @@ Se optó por separar el código en tres capas principales (Controller, Service, 
 
 **Ventaja:** Esta estructura facilita el mantenimiento y permite cambiar componentes (como el framework web o la base de datos) con mínimo impacto en el resto del sistema.
 
-2. **Flujo de Datos**
+### 2. **Flujo de Datos**
 
 El dato viaja de manera controlada y transformada para proteger la integridad del sistema:
 
@@ -133,7 +133,7 @@ Se aplicó el principio de **Inversión de Dependencias** de manera manual:
 
 - Esto desacopla las capas, haciendo el código más modular y facilitando la creación de pruebas unitarias y de integración.
 
-4. **Robustez y Seguridad**
+### 4. **Robustez y Seguridad**
 
 - **Identificadores UUID:** Se utilizaron UUIDs en lugar de IDs autoincrementales para mejorar la seguridad y evitar la enumeración de recursos.
 
