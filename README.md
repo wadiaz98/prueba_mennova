@@ -75,6 +75,10 @@ Para ejecutar el proyecto localmente, es necesario levantar ambos servicios (Bac
 
 ![Catálogo de Cócteles](./fotos_app/lista-cocteles.png)
 
+### Cóctel No Encontrado
+
+![Cóctel No Encontrado](./fotos_app/coctel%20no%20encontrado.png)
+
 ### Detalle de Cóctel
 
 ![Detalle de Cóctel](./fotos_app/detalle-coctel.png)
@@ -97,8 +101,7 @@ Para ejecutar el proyecto localmente, es necesario levantar ambos servicios (Bac
 
 ### Demostración Completa (GIF)
 
-<!-- ![Demo del Sistema](./fotos_app/demo.gif) -->
-_GIF demostrativo próximamente_
+![Demo del Sistema](./fotos_app/cocktail-app.gif)
 
 ---
 
@@ -120,6 +123,12 @@ _GIF demostrativo próximamente_
 - ✅ Búsqueda y filtros
 - ✅ Gestión de estados con hooks
 - ✅ Integración completa con API
+
+---
+
+## 🐳 Despliegue con Docker
+
+El proyecto está preparado para ser contenerizado. Con los builds de producción (`npm run build`) y la configuración adecuada de las variables de entorno, se pueden crear los `Dockerfile` correspondientes para cada servicio y orquestarlos mediante `docker-compose.yml` para un despliegue simplificado.
 
 ---
 
