@@ -14,13 +14,13 @@ El proyecto está estructurado como un **Monorepo** dividido en dos directorios 
 
 API RESTful construida con **Node.js**, **Express** y **TypeScript**. Utiliza **PostgreSQL** como base de datos y **TypeORM** para el mapeo objeto-relacional.
 
-📄 [Ver instrucciones del Backend](./backend/README.MD)
+📄 [Ver instrucciones del Backend](./backend/README.md)
 
 ### 🔵 **Frontend** (`/frontend`)
 
 Aplicación web construida con **React**, **Next.js** y **Tailwind CSS**. Interfaz moderna y responsive para consumir la API del Backend.
 
-📄 [Ver instrucciones del Frontend](./frontend/README.MD)
+📄 [Ver instrucciones del Frontend](./frontend/README.md)
 
 ---
 
