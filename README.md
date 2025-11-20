@@ -65,23 +65,39 @@ Para ejecutar el proyecto localmente, es necesario levantar ambos servicios (Bac
    ```
    La aplicación estará disponible en `http://localhost:3001`
 
+> **💡 Recomendación:** Las URLs de las imágenes de los cócteles se pueden obtener de [Unsplash](https://unsplash.com/es). Buscar el cóctel deseado y copiar la dirección de la imagen para usarla en el formulario de creación/edición.
+
 ---
 
 ## 📸 Capturas del Sistema
 
 ### Vista Principal - Listado de Cócteles
 
-![Catálogo de Cócteles](./fotos_app/coctel%20no%20encontrado.png)
+![Catálogo de Cócteles](./fotos_app/lista-cocteles.png)
 
-### Crear/Editar Cóctel
+### Cóctel No Encontrado
 
-<!-- ![Formulario de Cóctel](./fotos_app/formulario.png) -->
-_Captura próximamente_
+![Cóctel No Encontrado](./fotos_app/coctel%20no%20encontrado.png)
 
-### Gestión de Favoritos
+### Detalle de Cóctel
 
-<!-- ![Vista de Favoritos](./fotos_app/favoritos.png) -->
-_Captura próximamente_
+![Detalle de Cóctel](./fotos_app/detalle-coctel.png)
+
+### Formulario - Editar Cóctel
+
+![Editar Cóctel](./fotos_app/editar-coctel.png)
+
+### Vista de Favoritos
+
+![Favoritos](./fotos_app/favoritos-coctel.png)
+
+### Crear Nuevo Cóctel
+
+![Nuevo Cóctel](./fotos_app/nuevo-coctel.png)
+
+### Gestión - Papelera
+
+![Papelera de Cócteles](./fotos_app/papelera-coctel.png)
 
 ### Demostración Completa (GIF)
 
