@@ -7,7 +7,13 @@ import { AppError } from "./utils/AppError.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  credentials: false,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept']
+}));
+
 
 if (process.env.NODE_ENV !== 'test') {
   app.use(morgan("dev"));
