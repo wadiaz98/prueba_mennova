@@ -52,7 +52,7 @@ El sistema se encuentra configurado con `synchronize: true` (modo desarrollo), l
 
 ### Iniciar en Desarrollo (Recomendado)
 
-Levanta el servidor con recarga automática (watch mode).
+Levantar el servidor con recarga automática (watch mode).
 
 ```bash
 npm run dev
@@ -62,7 +62,7 @@ La API estará disponible en: `http://localhost:3000/api/cocktails`
 
 ### Ejecutar Pruebas (Testing)
 
-Ejecuta los tests de integración automatizados (Jest + Supertest) para validar el funcionamiento correcto del sistema (CRUD, Validaciones, Errores).
+Ejecutar los tests de integración automatizados (Jest + Supertest) para validar el funcionamiento correcto del sistema (CRUD, Validaciones, Errores).
 
 ```bash
 npm test
@@ -70,10 +70,18 @@ npm test
 
 ### Compilar para Producción
 
-Genera el código JavaScript transpilado en la carpeta `build/`.
+Generar el código JavaScript transpilado en la carpeta `build/`.
 
 ```bash
 npm run build
+```
+
+### Iniciar en Producción
+
+Ejecutar el código compilado (solo después de ejecutar `npm run build`).
+
+```bash
+npm run start
 ```
 
 ---

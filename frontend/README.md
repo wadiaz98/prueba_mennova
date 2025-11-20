@@ -33,7 +33,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3000/api/cocktails
 
 ### 1. Iniciar en Desarrollo (Recomendado)
 
-Levanta el servidor con recarga automática.
+Levantar el servidor con recarga automática.
 
 ```bash
 npm run dev
@@ -43,7 +43,7 @@ La aplicación estará disponible en `http://localhost:3001` (o el puerto que as
 
 ### 2. Generar Build de Producción (Compilación)
 
-Compila y optimiza el código para producción.
+Compilar y optimizar el código para producción.
 
 ```bash
 npm run build
@@ -51,7 +51,7 @@ npm run build
 
 ### 3. Iniciar en Producción
 
-Corre el código compilado (solo después de ejecutar `npm run build`).
+Correr el código compilado (solo después de ejecutar `npm run build`).
 
 ```bash
 npm run start
