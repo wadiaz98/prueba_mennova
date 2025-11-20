@@ -75,10 +75,6 @@ Para ejecutar el proyecto localmente, es necesario levantar ambos servicios (Bac
 
 ![Catálogo de Cócteles](./fotos_app/lista-cocteles.png)
 
-### Cóctel No Encontrado
-
-![Cóctel No Encontrado](./fotos_app/coctel%20no%20encontrado.png)
-
 ### Detalle de Cóctel
 
 ![Detalle de Cóctel](./fotos_app/detalle-coctel.png)
